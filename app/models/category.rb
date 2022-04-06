@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-  enum type: [:receita, :despesa ]
+  enum kind: [:receita, :despesa ]
 end

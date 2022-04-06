@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :category do
     title { Faker::Lorem.sentence }
-    type { Category.types.values.sample }
+    kind { Category.kinds.values.sample }
   end
 end
